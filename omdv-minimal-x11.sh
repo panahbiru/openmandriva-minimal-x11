@@ -17,7 +17,7 @@ echo "Add personal Repo"
 urpmi.addmedia personal http://repo.unnes.ac.id/repo2/openmandriva
 
 echo "Install X11, xterm, omv-minsysreqs"
-urpmi --no-verify-rpm task-x11 xterm omv-minsysreqs draklive-install-no-kdm
+urpmi --no-verify-rpm task-x11 xterm omv-minsysreqs draklive-install
 
 echo "Add distrib media"
 urpmi.addmedia --distrib http://kambing.ui.ac.id/unitylinux/openmandriva2014.0/repository/$ARCH
